@@ -12,7 +12,7 @@ public class Feedback {
     private String content;
     private String other;
     private int score;
-    
+
     public Feedback() {
     }
 
