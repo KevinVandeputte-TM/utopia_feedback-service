@@ -3,8 +3,6 @@ package fact.it.utopia_feedbackservice.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.time.LocalDate;
-
 @Document
 public class Feedback {
     @Id
@@ -14,9 +12,7 @@ public class Feedback {
     private String content;
     private String other;
     private int score;
-
-    private LocalDate date;
-
+    
     public Feedback() {
     }
 
